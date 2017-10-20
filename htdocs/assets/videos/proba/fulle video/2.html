@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="script.js">
+  </script>
+</head>
+<body>
+
+<header>
+        <h1>Полноэкранное видео для фона!</h1>
+        <p>Представленное фоновое видео реализовано при помощи HTML5 и CSS3, без использования каких-либо плагинов!</p>
+        <p><small>Разработчик идеи: Денис Черников!</small> <small> Автор блога: <a href="http://sozdaiblog.ru" target="_blank" rel="author">Sozdaiblog.ru</a></small></p>
+    </header>
+ 
+  <video id="video_background" preload="auto" autoplay="true" loop="loop">
+      <source  src="3.mp4" type='video/mp4'>
+      <source  src="3.webm" type='video/webm'>
+      <source  src="3.ogg" type='video/ogg'>
+    </video>
+	<br/>
+	<br/>
+    <div id='buttons'>
+      <button id="player" onclick="document._video.volume+=0.1">Громче +</button>
+      <button id="player" onclick="document._video.volume-=0.1">Тише -</button>
+    
+    </div>
+	<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+</body>
+</html>

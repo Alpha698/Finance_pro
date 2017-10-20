@@ -1,0 +1,22 @@
+## Кодировка документов
+AddDefaultCharset utf-8
+#AddDefaultCharset koi8-u
+#AddDefaultCharset windows-1251
+
+## Файл индексного документа
+#DirectoryIndex index.shtml index.html index.htm index.php
+
+## Воспринимать файлы *.html как SSI
+#AddHandler server-parsed .html
+
+## Включить парсинг SSI выражений в устаревшем формате
+#SSILegacyExprParser on
+
+## Разрешение вывода содержимого каталога
+#Options +Indexes
+
+## Не писать в access.log информацию о файлах *.gif и *.jpg
+#SetEnvIf Request_URI \.gif$ access_log
+#SetEnvIf Request_URI \.jpg$ access_log
+
+#AddType application/x-httpd-php .php .htm .html

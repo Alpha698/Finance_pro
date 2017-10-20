@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+    <title>Finance pro</title>
+	<link rel="shortcut icon" href="assets/img/logostext.png" type="image/x-icon">
+    <!-- Подключение Bootstrap CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Подключение прочих стилей -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <link href="assets/css/animate-custom.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+	<!-- Подключение jquery и других js-->
+    <script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+    
+	
+	<style>
+	
+	#video_background {
+position: absolute;
+bottom: 0px;
+right: 0px;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -999;
+overflow: hidden;
+}
+
+.knopka16 {
+    background-image: linear-gradient(#333, #333), linear-gradient(#333, #333), linear-gradient(#333, #333), linear-gradient(#333, #333), linear-gradient(#333, #333), linear-gradient(#333, #333), linear-gradient(#333, #333), linear-gradient(#333, #333);
+    background-position: 0 0px, 100% 0px, 0 100%, 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 2rem 5px, 2rem 5px, 2rem 5px, 2rem 5px, 5px 1.5rem, 5px 1.5rem, 5px 1.5rem, 5px 1.5rem;
+    box-shadow: 0 0 0 5px rgba(255, 99, 71, 0) inset;
+    color: #333;
+        margin: 10px auto;
+    display: table;
+    font: 500 20px verdana;
+    padding: 15px 25px;
+    position: relative;
+    text-decoration: none;
+    transform: translateZ(0px);
+    transition: background-size 1s ease 0.4s, box-shadow 0.4s ease 0s, color 0.4s ease 0s;
+}
+.knopka16:hover {
+    background-size: 52% 5px, 52% 5px, 52% 5px, 52% 5px, 5px 52%, 5px 52%, 5px 52%, 5px 52%;
+    box-shadow: 0 0 0 5px #36648B inset;
+    color: #36648B;
+    transition: background-size 1s ease 0s, box-shadow 0.4s ease 0.6s, color 0.4s ease 0.6s;
+}
+	</style>
+	
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
+  
+  
+  	<div id="navbar-main">
+      <!-- Блок меню -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><!-- Кпопка для выпадающего меню-->
+            <span class="icon icon-menu" style="font-size:30px; color:#3498db;"></span><!-- Иконка меню /vector-->
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li> <a href="#home" class="smoothScroll">Главная</a></li>
+			<li> <a href="#about" class="smoothScroll">О нас</a></li>
+			<li> <a href="#team" class="smoothScroll">Прогноз</a></li>
+			<li> <a href="#contact" class="smoothScroll">Контакты</a></li>
+			<li> <a href="about.php" class="smoothScroll">Личный кабинет</a></li>
+			<li> <a href="login.php" >Войти</a></li>
+			<li> <a href="signup.php"  style="">Регистрация</a></li>
+				
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    </div>
+
+  
+  
+		<!-- ==== HEADERWRAP ==== -->
+	    <div id="headerwrap" name="home">
+	  		 		<h1><img src="\assets\img\logostext.png" style="margin: -23% -10% -25% -10%;  width: 15%"/></h1>
+	
+	<!--  Видео заставка -->
+	<video id="video_background" preload="auto" autoplay="true" loop="loop">
+      <source  src="\assets\videos\vid2.mp4" type='video/mp4'>
+	  <source  src="\assets\videos\vid2.webm" type='video/webm'>
+      <source  src="\assets\videos\vid2.ogg" type='video/ogg'>
+    </video>
+	
+	<!--  -->
+	 <p   style="font-family:Ren;     font-size: 52px;">Finance pro</p>
+	    
+	    </div><!-- /headerwrap -->
+
+
+		<!-- ==== GREYWRAP ==== -->
+		<div id="greywrap">
+			<div class="row">
+				<div class="col-lg-4 callout">
+					<span class="icon icon-stack"></span>
+					<h2 style=" font-family:Georgia ">Возможности</h2>
+					<p>Разрабатываемое приложение позволяет произвести планирование инвестиционных решений без потери финансовых средств.</p>
+				</div><!-- col-lg-4 -->
+					
+				<div class="col-lg-4 callout">
+					<span class="icon icon-eye"></span>
+					<h2 style=" font-family:Georgia ">Анализ</h2>
+					<p>Приложение предоставляет необходимую финансовую отчетность потенциальным инвесторам и предпринимателям.</p>
+				</div><!-- col-lg-4 -->	
+				
+				<div class="col-lg-4 callout">
+					<span class="icon icon-star"></span>
+					<h2 style=" font-family:Georgia ">Современность</h2>
+					<p>Лучшее средство для создания и выбора оптимального плана развития бизнеса или производства и оценки инвестиционных проектов. </p>
+				</div><!-- col-lg-4 -->	
+			</div><!-- row -->
+		</div><!-- greywrap -->
+		
+		<!-- ==== ABOUT ==== -->
+		<div class="container" id="about" name="about">
+			<div class="row white">
+			
+				<h1 class="centered" >НЕМНОГО О ПРИЛОЖЕНИИ</h1>
+				<hr>
+				
+				<div class="col-lg-6">
+					<p>В сети появляется все больше программных продуктов, которые работают в режиме онлайн или десктоп и которые позволяют пользователям моделировать деятельность различных отраслей и масштабов. Разработка системы прогнозирования финансового состояния предприятий на примере WEB приложения – это создание методов и объединение их в единый программный продукт, для бизнес - планирования и оценки инвестиционных проектов. 
+					</div><!-- col-lg-6 -->
+				
+				<div class="col-lg-6">
+					<p>Такие программы также позволяют предугадать и подобрать стратегию развития от небольших венчурных компаний до холдинговых структур. Актуальность разрабатываемого приложения состоит в том, что планирование является объективной необходимостью, так как используется в целях обеспечения более высокого уровня роста и развития финансовой структуры предприятия или производства.
+					</div><!-- col-lg-6 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+		<!-- ==== SECTION DIVIDER1 -->
+		<section class="section-divider textdivider divider1">
+			<div class="container">
+				<h1 style=" font-family:Georgia ">ДИЗАЙН РАСШИРЯЕТ ГРАНИЦЫ</h1>
+				<hr>
+				<p style=" font-family:Euphemia; font-size: 30px;" >Удобный и обширный дизайн дает необходимую свободу для работы, поддержку рабочей атмосферы и комфорт которого вам не хватало</p>
+			</div><!-- container -->
+		</section><!-- section -->
+		
+	
+
+		<!-- ==== TEAM MEMBERS ==== -->
+		<div class="container" id="team" name="team">
+		<br>
+
+				
+			</div><!-- row -->
+		</div><!-- container -->
+
+		<!-- ==== GREYWRAP ==== -->
+		<div id="greywrap">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 centered">
+						<img class="img-responsive" src="assets/img/1qw.png" align="">
+					</div>
+					<div class="col-lg-4">
+								
+						<h2 style=" font-family:Georgia ">Мы начимаем!</h2>
+						<p>Вы хотите поскорее начать? Мы уверены, что вы хотите! Здесь вы можете ввести отчетность работы вашего предприятия и посмотреть что будет дальше</p>
+					<!-- 	<p><a class="button13" style=" font-family:Georgia;" href="main.html"> Перейти <span class="icon icon-pencil"></span> </a></p>
+						--><p><a class="knopka16" style=" font-family:Georgia; font-size: 225%;" href="main.html"><b>Начать</b> <span class="icon icon-pencil"></span></a></p>
+					</div>					
+				</div><!-- row -->
+			</div>
+			<br>
+			<br>
+		</div><!-- greywrap -->
+		
+		<!-- ==== SECTION DIVIDER3 -->
+		<section class="section-divider textdivider divider6">
+			<div class="container">
+				<h1 style=" font-family:Georgia ">ПОМОЖЕМ РЕШИТЬ ПРОБЛЕМЫ</h1>
+				<hr>
+				<p style=" font-family:Euphemia; font-size: 30px;">Finance pro - это решение множества финансовых проблем</p>
+			</div><!-- container -->
+		</section><!-- section -->
+		
+		
+
+				<div class="container" id="services" name="services">
+			<br>
+			<br>
+			<div class="row">
+				
+				<div class="col-lg-offset-2 col-lg-8">
+					<p>Данная программа предоставляет удобный способ анализа собственного бизнеса, также дает возможность проводить прогнозирование таких операций как выручку от продаж, прибыль, расчет различных видов затрат. 
+					</p>
+					<p>Это приложение предназначено для того чтобы вести подробную статистику движения финансов, просматривать графики и диаграммы, которые основываются на повышении и падении ценности товаров, ресурсов, спроса и других параметров, влияющих на результат прогнозирования.</p>
+
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="container" id="contact" name="contact">
+			<div class="row">
+			<br>
+				
+				<h1 class="centered" style=" font-family:Georgia ">СПАСИБО ЗА ПОСЕЩЕНИЕ</h1>
+				<hr>
+	
+				<br>
+				<div class="col-lg-4" style="margin: 0% 6% 0% 0%; ">
+					<h3>Контактная информация:</h3>
+					<p><span class="icon icon-home"></span> Польский спуск 1, <br> &nbsp &nbsp г.Одесса, Украина<br/>
+					<!--	<span class="icon icon-phone"></span> +349 884 48 93 <br/>    -->
+						<span class="icon icon-mobile"></span> +380(50) 882 68 24 <br/>
+						<span class="icon icon-envelop"></span> <a href="https://my.mail.ru/mail/tsef47/"> tsef47@mail.ru</a> <br/>
+						<!--<span class="icon icon-twitter"></span> <a href="#"> @blacktie_co </a> <br/>   icon-fire icon-lab icon-anchor-->
+						<span class="icon icon-facebook"></span> <a href="https://www.facebook.com/profile.php?id=100012252974050&fref=nf"> Владислав Шипков </a>  <br/>
+						<span class="icon icon-github"></span> <a href="https://github.com/Alpha698"> Alpha698 </a><br/>
+
+					</p>
+				</div><!-- col -->
+				
+				<div class="col-lg-7">
+	<img style="width:100%;  " src="\assets\img\maps.png"></img>
+				</div><!-- col -->
+
+
+			</div><!-- row -->
+		
+		</div><!-- container -->
+</br>
+
+<div id="footerwrap">
+		<div class="container">
+<div id="qoo-counter">
+<a title="Счетчик посещений на сайт">
+<img src="http://qooi.ru/counter/standard/009.png" alt="Счетчик посещаемости и статистика сайта">
+<div id="qoo-counter-visits"></div>
+<div id="qoo-counter-views"></div>
+</a>
+
+<span style="color:white; font-size: 12px;"><b>«<span id="time">00:00:00</span>»</b> </span>
+</div>
+<script type="text/javascript" src="http://qoo.by/counter.js"></script>
+
+				<h4>Created by <abbr style="color:#3498db">Kairos Company</abbr> - Copyright 2017</h4>
+
+				
+<script type="text/javascript">  
+	setInterval(function () {  
+	date = new Date(),  
+	h = date.getHours(),  
+	m = date.getMinutes(),  
+	s = date.getSeconds(),  
+	h = (h < 10) ? '0' + h : h,  
+	m = (m < 10) ? '0' + m : m,  
+	s = (s < 10) ? '0' + s : s,  
+	document.getElementById('time').innerHTML = h + ':' + m + ':' + s;  
+	}, 1000);  
+</script>
+				
+	</div>
+</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+		
+
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/retina.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-func.js"></script>
+  
+  </body>
+</html>
